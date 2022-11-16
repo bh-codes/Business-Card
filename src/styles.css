@@ -1,0 +1,165 @@
+* {
+  margin: auto;
+  box-sizing: border-box;
+  font-family: "Inter", sans-serif;
+  background-color: #23252c;
+  color: white;
+  align-items: center;
+  max-width: 550px;
+  /* max-height: 780px; */
+}
+
+.container {
+  background-color: #1a1b21;
+  width: 315px;
+  border-radius: 10px 10px 10px 10px;
+}
+
+header {
+  margin-top: 50px;
+  border-radius: 10px 10px 0 0;
+}
+
+header,
+.about-container,
+.interest-container,
+footer {
+  background-color: #1a1b21;
+  width: 315px;
+}
+
+.portrait {
+  border-radius: 10px 10px 0 0;
+  width: 315px;
+}
+
+h1 {
+  font-size: 25px;
+  text-align: center;
+  margin-top: 25px;
+  background-color: #1a1b21;
+}
+
+h5 {
+  font-size: 12.8px;
+  color: #f3bf99;
+  font-weight: 400;
+  text-align: center;
+  margin-top: 5px;
+  background-color: #1a1b21;
+}
+
+.portfolio-link {
+  font-size: 10.5px;
+  text-align: center;
+  margin-top: 10px;
+  background-color: #1a1b21;
+  text-decoration: none;
+}
+
+.portfolio-link a {
+  text-decoration: none;
+  background-color: transparent;
+}
+
+.email--icon {
+  background-color: #1e1f26;
+}
+
+.email-btn {
+  font-size: 14px;
+  width: 247px;
+  height: 34px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  background: white;
+  border-radius: 6px;
+  margin: 15px 35px 35px 35px;
+}
+
+.email-btn a {
+  text-decoration: none;
+  background-color: white;
+  color: #374151;
+}
+
+main {
+  width: 317px;
+  align-items: center;
+  justify-content: center;
+  max-width: 350px;
+}
+
+h2 {
+  font-size: 16px;
+  background-color: #1a1b21;
+  padding-bottom: 5px;
+}
+
+p {
+  font-size: 10.5px;
+  background-color: #1a1b21;
+}
+
+.about-container,
+.interest-container {
+  padding: 0 10px;
+  width: 250px;
+}
+
+.about-container p,
+.interest-container p {
+  color: #dcdcdc;
+  padding-bottom: 20px;
+}
+
+.interest-container {
+  padding-bottom: 20px;
+}
+
+main {
+  margin: 0 35px;
+  max-width: 250px;
+}
+
+footer {
+  border-radius: 0 0 10px 10px;
+}
+
+ul {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  background-color: #161619;
+  padding-left: 0;
+  width: 315px;
+  height: 65px;
+  border-radius: 0 0 10px 10px;
+}
+
+li {
+  width: 25px;
+  height: 25px;
+  border-radius: 2px;
+  background-color: #918e9b;
+}
+
+li a {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 5px;
+  background-color: transparent;
+}
+
+a {
+  background-color: #918e9b;
+}
+
+.icon {
+  background-color: #918e9b;
+  background: #161619;
+}
